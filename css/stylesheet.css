@@ -1,0 +1,189 @@
+/*
+    colors to pick from 
+    
+    #1a2938 container 1
+    #010F23 backround 1
+    #B8F3FF container 2
+    #1A273B background 2
+    #e6e7e9 text 1
+    #cd7b00 title 1
+    #b4cd00 title 2
+*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    letter-spacing: 1px;
+}
+body{
+    width: 100%;
+    padding: 10vh 0 0 0;
+    margin: 0;
+    background-color: #010F23;
+}
+/*style de nav*/
+nav{
+    background-color: #010F23;
+    margin: auto;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 10%;
+    width: 100%;
+}
+/* home icon */
+.home-page{
+    width: 4vh;
+    height: 4vh;
+}
+/* style de la liste de nav*/
+.nav-list{
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+}
+/* style de la liste de nav ! li seul!  */
+.nav-list li{
+    padding: 2vh 2.5vh;
+    text-align: center;
+    font-size: 2.7vh;
+    font-weight: bold;
+    color: #F6F6F7;
+    transition: .5s;
+    margin: 0;
+}
+
+.nav-list li::first-letter{
+    text-transform: uppercase;
+}
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list  .nav-item:hover{
+    color: #010F23;
+    background-color: #F6F6F7;
+    transform: scale(1.1,1.1);
+}
+/*footer style*/
+.footer {
+    background-color: #010F23;
+    margin: 0px;
+    width: 100%;
+}
+.footer table{
+    margin: auto;
+    color: white;
+    border-collapse: collapse;  
+    border: 0px; 
+}
+.footer table td{
+    border: 0px;
+    padding: 2vh 4vh;
+    text-align: center;
+}
+.footer table td img{
+    margin: auto;
+    width: 5vh;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2vh;
+}
+
+
+/* the body except the nav*/
+.main-page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/*the section with the content*/
+.main-section{
+    margin: 5vh 10vh ;
+    background-color: #1a2938 ;
+    padding: 5vh;
+}
+.main-section section{
+    margin-bottom: 5vh ;
+    background-color: #33414e ;
+    padding: 5vh;
+    border-radius: 10px;
+    color: #e6e7e9;
+    text-align: justify;
+}
+.main-section section #profile-img {
+    width: 50vh;
+    height: 50vh;
+}
+.main-section #profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-section h1{
+    color: #cd7b00;
+    font-size: 48px;
+}
+.main-section div span{
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-section .profile-div{
+    font-size: x-large;
+}
+.main-section q{
+    color: #e6e7e9;
+    margin-top: 5vh;
+}
+.main-section h3{
+    color: #cd7b00;
+    font-size: 28px;
+}
+.main-section h4{
+    color: #b4cd00;
+    font-size: 24px;
+    margin-left: 5vh;
+}
+.main-section .profile-div a{
+    text-decoration: none;
+    color: #e6e7e9;
+}
+.main-section .profile-div a:hover{
+    color: #b4cd00;
+}
+
+
+/* lists inside parcours page*/
+.p-list{
+    list-style-type: none;
+}
+.p-list a{
+    text-decoration: none;
+    color: #e6e7e9;
+}
+.p-list .h4-link{
+    color: #cd7b00;
+    font-size: 28px;
+}
+.university-desc{
+    margin: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+#kmf-img{
+    margin-right: 5vh;
+}
+.p-list p{
+    margin-right: 5vh;
+}
+.p-list img{
+    width: 60vh;
+    height: 40vh;
+}
+
+#screenshots-table img{
+    width: 100%;
+    height: 50vh;
+}

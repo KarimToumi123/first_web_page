@@ -1,0 +1,40 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    letter-spacing: 1px;
+}
+body{
+    background-color: blueviolet;
+    padding: 5vh;
+}
+form{
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: chartreuse;
+}
+.question-div{
+    padding: 2vh 5vh;
+    background-color: #65c0b9;
+}
+.question-div p{
+    color: darkblue;
+}
+.qustions-section{
+    background-color: #65c0b9;
+    padding: 5vh 0vh;
+    border-radius: 10px;
+    color: #b90000;
+}
+.submit-btn{
+    background-color: #279bee;
+    color: #b90000;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 0px;
+    border-radius: 5px;
+    padding: 2vh 6vh;
+}
